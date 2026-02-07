@@ -14,6 +14,17 @@ This service provides a **GraphQL API** for managing **Artists, Albums, and Song
 
 ---
 
+## 🧠 Architecture Note
+
+This project was **initially scaffolded using REST APIs** to better understand Django fundamentals 
+(models, serializers, views, and routing).
+
+After establishing a solid foundation, the backend was **refactored to use GraphQL (Graphene-Django)** 
+as the primary API layer, providing a more flexible, efficient, and scalable data-fetching approach 
+better suited for modern frontend applications.
+
+---
+
 ## 📂 Project Structure
 
 - `backend/` — Django project (settings, urls, wsgi, asgi)

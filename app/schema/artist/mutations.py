@@ -1,5 +1,5 @@
 import graphene
-from backend.schema.artist.types import ArtistType
+from app.schema.artist.types import ArtistType
 from music.models import Artist
 
 

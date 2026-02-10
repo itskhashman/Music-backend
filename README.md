@@ -27,7 +27,7 @@ better suited for modern frontend applications.
 
 ## 📂 Project Structure
 
-- `backend/` — Django project (settings, urls, wsgi, asgi)
+- `app/` — Django project (settings, urls, wsgi, asgi)
 - `music/` — Django app (models, serializers, views, urls)
 - `manage.py` — Django management script
 - `requirements.txt` — Python dependencies
@@ -42,8 +42,8 @@ Follow these steps to run the project locally.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/itskhashman/Music-backend.git
-cd Music-backend
+git clone https://github.com/itskhashman/music-app-backend.git
+cd music-app-backend
 ```
 
 2. Create a virtual environment

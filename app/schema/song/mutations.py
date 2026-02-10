@@ -1,5 +1,5 @@
 import graphene
-from backend.schema.song.types import SongType
+from app.schema.song.types import SongType
 from music.models import Album, Song
 
 

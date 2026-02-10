@@ -1,5 +1,5 @@
 import graphene
-from backend.schema.album.types import AlbumType
+from app.schema.album.types import AlbumType
 from music.models import Artist, Album
 
 
